@@ -1,0 +1,26 @@
+pipeline:
+  rolling_window_weeks: 8
+  baseline_weeks: 4
+  inactivity_churn_threshold_days: 60
+
+flagging:
+  min_consecutive_negative_trend_weeks: 3
+  baseline_ratio_threshold: 0.5
+
+data:
+  raw_events_path: "data/raw_events.csv"
+  raw_users_path: "data/raw_users.csv"
+  activity_events_path: "data/activity_events.csv"
+  users_path: "data/users.csv"
+  weekly_activity_path: "data/weekly_activity.csv"
+  decay_scores_path: "data/decay_scores.csv"
+  flags_path: "data/flags.csv"
+  backtest_results_path: "data/backtest_results.csv"
+
+business:
+  per_user_value: 100 # Assumed value for cost-of-inaction calculation
+
+synthetic_data:
+  num_users: 2000
+  num_events: 50000
+  seed: 42
