@@ -1,0 +1,9 @@
+metric,value
+total_users,2000.0
+total_churned,1672.0
+total_flagged,1957.0
+true_positives,1672.0
+recall,1.0
+precision,0.8543689320388349
+mean_lead_time_days,55.04964114832536
+median_lead_time_days,46.0

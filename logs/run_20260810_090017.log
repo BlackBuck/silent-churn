@@ -1,0 +1,4 @@
+2026-08-10 09:00:17,268 - INFO - Starting backtesting...
+2026-08-10 09:00:17,379 - INFO - Backtesting Complete.
+2026-08-10 09:00:17,379 - INFO - Recall: 100.00% | Precision: 85.44%
+2026-08-10 09:00:17,380 - INFO - Mean Lead Time: 55.0 days

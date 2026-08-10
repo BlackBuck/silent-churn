@@ -1,0 +1,6 @@
+2026-08-10 08:52:44,876 - INFO - Starting ingestion...
+2026-08-10 08:52:44,879 - INFO - Generating synthetic data...
+2026-08-10 08:52:49,751 - INFO - Generated 2000 users and 49581 events.
+2026-08-10 08:52:49,823 - INFO - Read 2000 users and 49581 events from raw data.
+2026-08-10 08:52:49,857 - INFO - Dropped 213 duplicate events.
+2026-08-10 08:52:50,098 - INFO - Ingestion complete. Saved 2000 users and 49368 events.

@@ -1,0 +1,16 @@
+2026-08-10 09:01:40,418 - INFO - Starting End-to-End Pipeline
+2026-08-10 09:01:40,418 - INFO - Starting ingestion...
+2026-08-10 09:01:40,488 - INFO - Read 2000 users and 49581 events from raw data.
+2026-08-10 09:01:40,527 - INFO - Dropped 213 duplicate events.
+2026-08-10 09:01:40,775 - INFO - Ingestion complete. Saved 2000 users and 49368 events.
+2026-08-10 09:01:40,776 - INFO - Starting weekly aggregation...
+2026-08-10 09:01:44,223 - INFO - Aggregation complete. Saved 33697 weekly records for 2000 users.
+2026-08-10 09:01:44,230 - INFO - Starting decay scoring...
+2026-08-10 09:02:52,214 - INFO - Decay scoring complete. Saved scores for 33697 records.
+2026-08-10 09:02:52,265 - INFO - Starting flagging...
+2026-08-10 09:03:08,773 - INFO - Flagging complete. Saved flags for 33697 records.
+2026-08-10 09:03:08,810 - INFO - Starting backtesting...
+2026-08-10 09:03:08,901 - INFO - Backtesting Complete.
+2026-08-10 09:03:08,901 - INFO - Recall: 100.00% | Precision: 85.44%
+2026-08-10 09:03:08,901 - INFO - Mean Lead Time: 55.0 days
+2026-08-10 09:03:08,901 - INFO - Pipeline completed successfully in 88.48 seconds.
